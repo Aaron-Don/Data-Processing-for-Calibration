@@ -11,7 +11,7 @@ from openpyxl import Workbook
 from openpyxl import load_workbook
 
 import pandas as pd
-import numpy as np
+import numpy as npim
 
 import mdfreader
 
@@ -780,12 +780,6 @@ class MyWindow ( wx.Frame ):
             tri_start.append(triggerlist[i][1])
             tri_end.append(triggerlist[i][2])
             tri_target.append(triggerlist[i][3])
-
-        ######################## special trigger addition #############################
-
-        #var_ICB1PASS = ['IC1OSCTM','ICB1BASE','ICM1EWMA','ICB1PASS','ICB1FAIL']
-        #var_XFRDCT = ['XFR11FLHC','XFR11FHLC','XFR11FLHR','XFR11FHLR','XFR11FSR','XFR11SRAV','XFR11SDAV','XFRDCT']
-        #var_OTD12DST = ['OTD12TTF','OTD12TTC','OTD12MXC','OTD12MXK','OTP12TTF']
 
         #  ***************************** Read Excel *******************************   #
 
